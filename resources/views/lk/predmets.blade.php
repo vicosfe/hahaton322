@@ -117,7 +117,7 @@
 				<img src="/public/images/dopMenu.png" alt="">
 			</div>
 			<div class="lkTopMenu__bottomSection--right">
-				<span>Популярные</span><i class="fa fa-angle-down" aria-hidden="true"></i>
+				<span>Интересующие</span><i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 		</div>
 	</div>
@@ -133,14 +133,7 @@
 			</div>
 
 			<div class="lkMainContent__wrapper--right">
-				<form action="#" class="formFacultet">
-					<select name="selectFacultet">
-						<option value="web">Веб-разработка</option>
-						<option value="2">Веб-разработка</option>
-						<option value="3">Веб-разработка</option>
-					</select>	
-					<i class="fa fa-angle-down" aria-hidden="true"></i>			
-				</form>
+				
 			</div>
 
 		</div>
@@ -155,18 +148,18 @@
 					<p>
 						HTML5, CSS3, LESS, Bootstrap, Javascript, Ajax, JQuery, Gulp.
 					</p>
-					<a href="#">Посмотреть лекции</a>
+					<a href="/lk/test">Посмотреть лекции</a>
 				</div>
 			</div>
 
 			<div class="chooseCourseItem">
-				<div class="chooseCourseItem__left"><img src="/public/images/lec1.png" alt=""></div>
+				<div class="chooseCourseItem__left"><img src="/public/images/ANDROID.png" width="100" style="margin-right:120px" height="80"></div>
 				<div class="chooseCourseItem__right">
-					<h3>Front-end разработка</h3>
+					<h3>Android разработка</h3>
 					<p>
-						HTML5, CSS3, LESS, Bootstrap, Javascript, Ajax, JQuery, Gulp.
+						Android SDK, GreenDAO, CLEAN ARCHITECTURE
 					</p>
-					<a href="#">Посмотреть лекции</a>
+					<a href="/lk/test2">Посмотреть лекции</a>
 				</div>
 			</div>
 

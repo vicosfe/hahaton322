@@ -34,5 +34,16 @@ class AllController extends Controller
 
         return view('reg');
     }
+    public  function html(){
 
+        return view('lk.html');
+    }
+    public  function lktest2(){
+
+    return view('lk.test2');
+    }
+    public  function java(){
+
+        return view('lk.java');
+    }
 }

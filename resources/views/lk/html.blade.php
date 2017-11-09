@@ -37,10 +37,10 @@
 
 
 			<li>
-				<a href="/lk/predmets/">
+				<a href="/lk/predmets/" class="menuActive">
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/items.png" alt="">
+							<img src="/public/images/itemsActive.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Предметы</span>
@@ -65,10 +65,10 @@
 
 
 			<li>
-				<a href="/lk/achivment/" class="menuActive">
+				<a href="/lk/achivment/">
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/achivmentsActive.png" alt="">
+							<img src="/public/images/achivments.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Очки и достижения</span>
@@ -117,7 +117,7 @@
 				<img src="/public/images/dopMenu.png" alt="">
 			</div>
 			<div class="lkTopMenu__bottomSection--right">
-				<span>Интересующие</span><i class="fa fa-angle-down" aria-hidden="true"></i>
+				<span>Популярные</span><i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 		</div>
 	</div>
@@ -128,7 +128,7 @@
 					<span>
 						<img src="/public/images/community.png" alt="">
 					</span>
-					<span class="lkMainContent__text">ДОСТИЖЕНИЯ</span>
+					<span class="lkMainContent__text">ОБУЧЕНИЕ</span>
 				</h3>
 			</div>
 
@@ -148,7 +148,7 @@
 		<div class="userInfo">
 
 			<!-- ************************ -->
-			<h2 style="color: #bcb0a8; font-weight: 200 ">Достижений пока нет.. Старайся неуч!</h2>
+			<iframe width="810" height="515" src="https://www.youtube.com/embed/8mK5aY5YOCc" frameborder="0" allowfullscreen></iframe>
 
 			<!-- ********************************* -->
 

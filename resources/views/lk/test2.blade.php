@@ -23,10 +23,10 @@
 		<h3 class="menuLk">МЕНЮ</h3>
 		<ul>
 			<li>
-				<a href="/lk">
+				<a href="/lk" >
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/soobhestvo.png" alt="">
+							<img src="/public/images/soobhestvoActive.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Сообщество университета</span>
@@ -37,10 +37,10 @@
 
 
 			<li>
-				<a href="/lk/predmets/">
+				<a href="/lk/predmets/" class="menuActive">
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/items.png" alt="">
+							<img src="/public/images/itemsActive.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Предметы</span>
@@ -65,10 +65,10 @@
 
 
 			<li>
-				<a href="/lk/achivment/" class="menuActive">
+				<a href="/lk/achivment/">
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/achivmentsActive.png" alt="">
+							<img src="/public/images/achivments.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Очки и достижения</span>
@@ -128,7 +128,7 @@
 					<span>
 						<img src="/public/images/community.png" alt="">
 					</span>
-					<span class="lkMainContent__text">ДОСТИЖЕНИЯ</span>
+					<span class="lkMainContent__text">ОБУЧЕНИЕ</span>
 				</h3>
 			</div>
 
@@ -145,17 +145,73 @@
 
 		</div>
 		<div class="hrLk"></div>
-		<div class="userInfo">
 
-			<!-- ************************ -->
-			<h2 style="color: #bcb0a8; font-weight: 200 ">Достижений пока нет.. Старайся неуч!</h2>
+		<!-- ************************ -->
+		<div class="userInfoItem11">
+			<div class="wrapper">
+				<div class="INTRO">
+					<div class="INTRO__top">
+						<span>1.INTRO</span>
+						<span class="hour">0.2 HOURS</span>
+					</div>	
+				</div>
+				<div class="INTRO__row">
+					<div class="INTRO__row--castleUnlock"><i class="fa fa-unlock" aria-hidden="true"></i></div>
+					<div class="nameCourses">
+						<a href="/lk/predmets/java">1.1 Java Intro (free preview)</a>
+						<span class="nameCoursesHour">14 min</span>
+					</div>
+				</div>
+			</div>	
 
-			<!-- ********************************* -->
 
-			
+
+
+			<div class="wrapper">
+				<div class="BASICS">
+				<div class="BASIC">
+				<div class="BASIC__top">
+				<span>2.BASIC</span>
+							<span class="hour">0.2 HOURS</span>
+						</div>	
+					</div>
+					<div class="BASIC__row">
+					<div class="BASIC__row--castlelock"><i class="fa fa-lock" aria-hidden="true"></i></div>
+						<div class="nameCourses">
+						<a href="#">1.1 ANDROID SDK BASIC (free preview)</a>
+							<span class="nameCoursesHour">12 min</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="wrapper">
+				<div class="ADVANCED">
+					<div class="ADVANCED">
+						<div class="ADVANCED__top">
+							<span>3.ADVANCED</span>
+							<span class="hour">0.2 HOURS</span>
+						</div>	
+					</div>
+					<div class="ADVANCED__row">
+						<div class="ADVANCED__row--castlelock"><i class="fa fa-lock" aria-hidden="true"></i></div>
+						<div class="nameCourses">	
+							<a href="#">1.1 CLEAN ARCHITECTURE  ADVANCED (free preview)</a>
+							<span class="nameCoursesHour">12 min</span>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 		</div>
+
+
+		<!-- ********************************* -->
+
+
+
 	</div>	
 </section>
 

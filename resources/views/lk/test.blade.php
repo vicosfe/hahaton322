@@ -23,7 +23,7 @@
 		<h3 class="menuLk">МЕНЮ</h3>
 		<ul>
 			<li>
-				<a href="/lk" class="menuActive">
+				<a href="/lk" >
 					<div class="navItemLk">
 						<div class="navItemLk__left">
 							<img src="/public/images/soobhestvoActive.png" alt="">
@@ -37,10 +37,10 @@
 
 
 			<li>
-				<a href="/lk/predmets/">
+				<a href="/lk/predmets/" class="menuActive">
 					<div class="navItemLk">
 						<div class="navItemLk__left">
-							<img src="/public/images/items.png" alt="">
+							<img src="/public/images/itemsActive.png" alt="">
 						</div>
 						<div class="navItemLk__right">
 							<span>Предметы</span>
@@ -117,7 +117,7 @@
 				<img src="/public/images/dopMenu.png" alt="">
 			</div>
 			<div class="lkTopMenu__bottomSection--right">
-				<span>Популярные</span><i class="fa fa-angle-down" aria-hidden="true"></i>
+				<span>Интересующие</span><i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 		</div>
 	</div>
@@ -128,7 +128,7 @@
 					<span>
 						<img src="/public/images/community.png" alt="">
 					</span>
-					<span class="lkMainContent__text">СООБЩЕСТВО УНИВЕРСИТЕТА</span>
+					<span class="lkMainContent__text">ОБУЧЕНИЕ</span>
 				</h3>
 			</div>
 
@@ -158,7 +158,7 @@
 				<div class="INTRO__row">
 					<div class="INTRO__row--castleUnlock"><i class="fa fa-unlock" aria-hidden="true"></i></div>
 					<div class="nameCourses">
-						<a href="#">1.1 HTML5 Intro (free preview)</a>
+						<a href="/lk/predmets/html">1.1 HTML5 Intro (free preview)</a>
 						<span class="nameCoursesHour">12 min</span>
 					</div>
 				</div>

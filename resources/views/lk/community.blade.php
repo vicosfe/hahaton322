@@ -178,7 +178,68 @@
 			</div>
 
 			<!-- ********************************* -->
+			<!-- ************************ -->
+			<div class="userInfoItem">
+				<a href="#">
+					<div class="userInfoItemTop">
+						<div class="userInfoItemTop__left" style="background-image: url(/public/images/work6.png);"></div>
+						<div class="userInfoItemTop__right">
+							<h3>Аслан Магомедов</h3>
+							<div class="userInfoItemTop__right--mm">
+								<div class="mmLeft">
+									<img src="/public/images/achivments.png" alt="">
+								</div>
+								<div class="mmRight">
+									5014
+								</div>
+							</div>
+						</div>
 
+					</div>
+					<div class="hrLk"></div>
+					<div class="userInfoItemBottom">
+						<p>
+							Факультет: <span>Android-разработка</span>
+						</p>
+					</div>
+					<div class="userGeo">
+						<i class="fa fa-map-marker" aria-hidden="true"></i> <span>svsv as</span>
+					</div>
+				</a>
+			</div>
+
+			<!-- ********************************* -->
+			<!-- ************************ -->
+			<div class="userInfoItem">
+				<a href="#">
+					<div class="userInfoItemTop">
+						<div class="userInfoItemTop__left" style="background-image: url(/public/images/work6.png);"></div>
+						<div class="userInfoItemTop__right">
+							<h3>Патимат Ибрагимова</h3>
+							<div class="userInfoItemTop__right--mm">
+								<div class="mmLeft">
+									<img src="/public/images/achivments.png" alt="">
+								</div>
+								<div class="mmRight">
+									0
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="hrLk"></div>
+					<div class="userInfoItemBottom">
+						<p>
+							Факультет: <span>Game Dev</span>
+						</p>
+					</div>
+					<div class="userGeo">
+						<i class="fa fa-map-marker" aria-hidden="true"></i> <span>aцввц</span>
+					</div>
+				</a>
+			</div>
+
+			<!-- ********************************* -->
 			
 
 

@@ -27,24 +27,8 @@
                         </label>
                         
                         
-                        <div>
-                        
-<!--
-                        <label for="" class="genderLabel">
-                            <input type="radio" name="gender" class="input--man">
-                            <p class="man m">Муж</p>
-                        </label>
-                        <label for="" class="genderLabel">
-                           <input type="radio" name="gender" class="input--woman">
-                           <p class="man w" >Жен</p>
-                        </label>
--->
-                       
-                      
-                      </div>
-                       
-                       
-                        <button class="buutonSubmit clickButton_form">Далее</button>
+
+                        <button type="button" class="buutonSubmit clickButton_form">Далее</button>
                    </div>
                       
             </form>
@@ -69,7 +53,7 @@
                             <input type="text" placeholder="CVV">
                             
                             <a class="buutonBack">Назад</a>
-                            <button class="buutonSubmit buutonReady">Готово</button>
+                            <button type="button" class="buutonSubmit buutonReady">Готово</button>
                     </div>
                 </form>
          </div>
@@ -80,7 +64,7 @@
     <div class="wrapper_formSteps_two">
          <div class="formSuccess">
              <p>Регистрация успешно пройдена</p>
-             <a href="#">Войти в личный кабинет</a>
+             <a href="/lk">Войти в личный кабинет</a>
          </div>
     </div>
 </div>

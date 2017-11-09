@@ -116,9 +116,7 @@
 			<div class="lkTopMenu__bottomSection--left">
 				<img src="/public/images/dopMenu.png" alt="">
 			</div>
-			<div class="lkTopMenu__bottomSection--right">
-				<span>Популярные</span><i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+
 		</div>
 	</div>
 	<div class="lkMainContent">
@@ -128,7 +126,7 @@
 					<span>
 						<img src="/public/images/community.png" alt="">
 					</span>
-					<span class="lkMainContent__text">СООБЩЕСТВО УНИВЕРСИТЕТА</span>
+					<span class="lkMainContent__text">HTML INTRO</span>
 				</h3>
 			</div>
 
@@ -148,34 +146,7 @@
 		<div class="userInfo">
 
 			<!-- ************************ -->
-			<div class="userInfoItem">
-				<a href="#">
-					<div class="userInfoItemTop">
-						<div class="userInfoItemTop__left" style="background-image: url(/public/images/work6.png);"></div>
-						<div class="userInfoItemTop__right">
-							<h3>Расул Зияудинов</h3>
-							<div class="userInfoItemTop__right--mm">
-								<div class="mmLeft">
-									<img src="/public/images/achivments.png" alt="">
-								</div>
-								<div class="mmRight">
-									105236
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<div class="hrLk"></div>
-					<div class="userInfoItemBottom">
-						<p>
-							Факультет: <span>Веб-разработка</span>
-						</p>
-					</div>
-					<div class="userGeo">
-						<i class="fa fa-map-marker" aria-hidden="true"></i> <span>asdsadsaas as dasd as</span>
-					</div>
-				</a>
-			</div>
+			<img src="/public/images/1.png" alt="">
 
 			<!-- ********************************* -->
 
