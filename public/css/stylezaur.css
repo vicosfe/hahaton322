@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+input {
+    outline: 0;
+}
+
+.circleForm_Image {
+    background-image: url(/public/images/circleForm.png);
+    position: absolute;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper_form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 23%;
+    height: 450px;
+    transform: translateY(40%);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, .1);
+    background: #fff;
+    margin-left: 60%;
+}
+
+.wrapper_form form p{
+    color: #3dd384;
+    font-family: HelveticaNeueCyr-Bold;
+    margin: 10px 0 25px 0;
+    font-size: 2em;
+}.wrapper_form form a{
+    color: #141414;
+}
+
+.wrapper_form form {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    font-family: HelveticaNeueCyr-Medium;
+}
+
+.wrapper_form form a {
+    font-size: .85em;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.wrapper_form input[type="text"]:focus, .wrap_form input[type="text"]:focus, .inpWrapepr input[type="text"]:focus {
+    border: 1px solid #141414;
+}
+
+.wrapper_formSteps_two button, .buutonBack {
+    background: #3dd384;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    line-height: 43px;
+    width: 80%;
+    font-size: 1em;
+    border-radius: 25px;
+    color: #fff;
+    font-family: Ubuntu;
+    font-weight: 400;
+    transition: .3s;
+}.inpWrapepr button {
+    background: #3dd384;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    line-height: 43px;
+    width: 80%;
+    font-size: 1em;
+    border-radius: 25px;
+    color: #fff;
+    font-family: Ubuntu;
+    font-weight: 400;
+    transition: .3s;}
+
+.buutonBack {
+    background: #fff;
+    color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+}.buutonBack:hover{
+    background: #141414;
+    border: 1px solid #141414;
+}
+
+.buutonSubmit:hover {
+    background: #30c376;
+}
+/*____________________________________________________________________________________________*/
+
+.wrapperForm_registration, .wrapperForm_registrationTwo, .wrapperForm_registrationThree {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}.wrapperForm_registrationTwo {
+    transition: .7s .2s;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(.8);
+}
+
+.formContent {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+
+.wrap_form, .wrapper_formSteps_two {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    height: 80%;
+    width: 45%;
+    transition: .7s;
+}
+
+.clickButton_formJS_anim {
+    transform: translateX(-70%);
+    opacity: 0;
+    transition: .7s;
+}
+
+.wrap_form form, .formContent form{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.inpWrapepr{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 88%;
+    font-size: 1.2em;
+}
+.inpWrapepr a, .formContent button{
+    width: 48.78%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.inpWrapepr input, .wrapper_form input, .formContent input{
+    border-radius: 25px;
+    border: 1px solid #bdbdbd;
+    padding: 14px 20px;
+    transition: .5s;
+    font-size: .85em;
+    width: 48.78%;
+    font-family: Ubuntu;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.wrapper_form input, .formContent form {
+    width: 100%;
+}
+.formSteps {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-size: .9em;
+    margin: 25px 0 30px 0;
+    letter-spacing: .3px;
+    font-family: HelveticaNeueCyr-Bold;
+}
+.reg_p {
+    color: #3dd384;
+    font-family: HelveticaNeueCyr-Bold;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.formStep_diz {
+    color: #bdbdbd;
+}
+.fileLabel{
+    border-radius: 25px;
+    border: 1px solid #bdbdbd;
+    padding: 14px 20px;
+    transition: .5s;
+    font-size: .85em;
+    width: 48.78%;
+    font-family: Ubuntu;
+    font-weight: 400;
+    margin-bottom: 25px;  
+    cursor: pointer;
+}
+.file{
+    display: none;
+}
+.inpWrapepr .fileLabel input{
+    display: none;
+}
+.typeFile{
+    color: #bdbdbb;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    position: relative;
+}
+.typeFile::after{
+    content: '+';
+    position: absolute;
+    font-size: 24px;
+    font-weight: normal !important;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+/*+______________________________________________________________________________*/
+
+.wrapper_formSteps_two {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    transition: 1.2s;
+}
+
+.wrapper_formSteps_twoAnim {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+.wrapper_formSteps_two .formContent {
+    height: 88%;
+}
+
+.wrapper_formSteps_two a, .wrapper_formSteps_two button {
+    margin-top: 200px;
+}
+
+.wrapperForm_registrationTwo .formStep_active{
+    color: #3dd384;
+}.wrapperForm_registrationTwo .formStep_diz{
+    color: #141414;
+}
+
+/*_______________________________*/
+
+
+
+.wrapperForm_registrationThree  {
+    transition: 1.2s .2s;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+    opacity: 0;
+    transform: scale(.8);
+}
+
+.wrapperForm_registrationThreeAnim {    
+    transition: .7s .2s;
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.formSuccess {
+    text-align: center;
+}
+.formSuccess a{
+    font-family: Ubuntu;
+    font-weight: 400;
+    background: #3dd384;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 25px;
+}.formSuccess p{
+    color: #141414;
+    font-family: HelveticaNeueCyr-Bold;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.wrapper_formSteps_twoAnimHide {
+    transform: translateX(-70%) !important;
+    opacity: 0 !important;
+    transition: .7s !important;
+}
+

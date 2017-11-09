@@ -17,19 +17,10 @@ Route::get('/', 'Controller@index');
  Route::get('index', function () {
         return view('index');
     });
-  Route::get('lk', function () {
-        return view('lk.community');
-    });
-
-   Route::get('/lk/predmets', function () {
-        return view('lk.predmets');
-    });
-   Route::get('/lk/practics', function () {
-        return view('lk.practics');
-    });
-   Route::get('/lk/achivment', function () {
-        return view('lk.achivment');
-    });
-   Route::get('/lk/test', function () {
-        return view('lk.test');
-    });
+    Route::get('lk', 'AllController@lkcommunity');
+    Route::get('/lk/predmets', 'AllController@lkpredmets');
+    Route::get('/lk/practics', 'AllController@lkpractics');
+    Route::get('/lk/achivment', 'AllController@lkachivment');
+    Route::get('/lk/test', 'AllController@lktest');
+    Route::get('form', 'AllController@form');
+    Route::get('reg', 'AllController@reg');
