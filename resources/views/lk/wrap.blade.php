@@ -14,15 +14,13 @@
 	<script src="/public/js/main.js"></script>
 </head>
 <body>
-	<main class="mainScreen">
+	<main>
 
-
-
+		<!-- ************************************************* -->
 		@yield('content')
-		
 
 
 
-	</main>
+</main>
 </body>
 </html>

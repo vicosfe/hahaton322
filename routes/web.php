@@ -18,6 +18,18 @@ Route::get('/', 'Controller@index');
         return view('index');
     });
   Route::get('lk', function () {
-        return view('lk.wrap');
+        return view('lk.community');
     });
-Route::get('asdf', 'IndexController@index');
+
+   Route::get('/lk/predmets', function () {
+        return view('lk.predmets');
+    });
+   Route::get('/lk/practics', function () {
+        return view('lk.practics');
+    });
+   Route::get('/lk/achivment', function () {
+        return view('lk.achivment');
+    });
+   Route::get('/lk/test', function () {
+        return view('lk.test');
+    });
